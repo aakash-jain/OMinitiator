@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/passang"
+    tools:context="com.example.tenzind.ominitiator.Server">
+
+    <Button
+        android:id="@+id/orderstatusid"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:text="ORDER STATUS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/orderstatusEditText"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/orderstatusid"
+        android:layout_alignLeft="@+id/orderstatusid"
+        android:layout_alignStart="@+id/orderstatusid"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:ems="10"
+        android:hint="Enter Order Id"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/orderstatusall"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_alignLeft="@+id/orderstatusid"
+        android:layout_alignStart="@+id/orderstatusid"
+        android:layout_below="@+id/orderstatusid"
+        android:layout_marginTop="44dp"
+        android:text="GET STATUS ALL ORDERS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="140dp" />
+    </RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fun"
+    tools:context="com.example.tenzind.ominitiator.MainMenu">
+
+    <Button
+        android:id="@+id/server"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/orderstatus"
+        android:layout_alignLeft="@+id/orderstatus"
+        android:layout_alignStart="@+id/orderstatus"
+        android:layout_marginBottom="38dp"
+        android:text="Server Related"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/orderstatus"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/operations"
+        android:layout_alignLeft="@+id/operations"
+        android:layout_alignStart="@+id/operations"
+        android:layout_marginBottom="51dp"
+        android:text="ORDER STATUS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/operations"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/applicationLogButton"
+        android:layout_alignLeft="@+id/applicationLogButton"
+        android:layout_alignStart="@+id/applicationLogButton"
+        android:layout_marginBottom="55dp"
+        android:text="ORDER OPERATIONS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/applicationLogButton"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="KILL PROCESS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="338dp" />
+</RelativeLayout>

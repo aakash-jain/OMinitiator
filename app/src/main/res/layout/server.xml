@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/passang"
+    tools:context="com.example.tenzind.ominitiator.Server">
+
+    <Button
+        android:id="@+id/startButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/stopbutton"
+        android:layout_alignLeft="@+id/stopbutton"
+        android:layout_alignStart="@+id/stopbutton"
+        android:layout_marginBottom="32dp"
+        android:text="Start"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/stopbutton"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/cleanrestart"
+        android:layout_alignLeft="@+id/cleanrestart"
+        android:layout_alignStart="@+id/cleanrestart"
+        android:layout_marginBottom="38dp"
+        android:text="STOP"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/cleanrestart"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/killprocess"
+        android:layout_alignLeft="@+id/killprocess"
+        android:layout_alignStart="@+id/killprocess"
+        android:layout_marginBottom="55dp"
+        android:text="clean restart"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/killprocess"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:text="KILL PROCESS"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="338dp" />
+    </RelativeLayout>
